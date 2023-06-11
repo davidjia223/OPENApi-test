@@ -1,26 +1,15 @@
 {
-  "dependencies": {
-    "axios": "^1.4.0",
-    "cors": "^2.8.5",
-    "dotenv": "^16.1.4",
-    "express": "^4.18.2",
-    "openai": "^3.2.1"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.22"
-  },
-  "scripts": {
-    "start": "node server.js"
-  },
-  "name": "main",
+  "name": "chatgpt",
   "version": "1.0.0",
-  "main": "main.js",
-  "keywords": [],
-  "author": "David Jia",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
   "license": "ISC",
-  "description": "Openai test",
-  "repository": {
-    "type": "git",
-    "url": "NAS"
+  "dependencies": {
+    "dotenv": "^16.1.4",
+    "openai": "^3.1.0"
   }
 }
