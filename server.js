@@ -8,13 +8,13 @@ const configuration = new Configuration({
 const openai = new OpenAIApi(configuration);
 
 const runPrompt = async () => {
-    const prompt = "Tell me a joke about cat eating pasta.";
+    const prompt = "Tell me a simple cat pun";
 
     const response = await openai.createCompletion({
         model: "text-davinci-003",
         prompt: prompt,
         max_tokens: 2000,
-        temperature: 1,
+        temperature: 0.7,
         top_p:1.0,
         n: 1,
     });
@@ -23,3 +23,4 @@ const runPrompt = async () => {
 };
 
 runPrompt();
+
